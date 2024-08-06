@@ -1,0 +1,17 @@
+{
+  "name": "be-dev-assessment",
+  "version": "1.0.0",
+  "description": "## Directions Using a Programming stack that you are comfortable with create a basic URL shortener.  - This project should be available via a public git repo (please fork this repo). - This project should encompass the requirements below:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "nanoid": "^5.0.7"
+  }
+}
