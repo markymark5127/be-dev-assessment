@@ -28,28 +28,28 @@ Using a Programming stack that you are comfortable with create a basic URL short
 ## Solution
 ### Install Node.js
 1. installs nvm (Node Version Manager)
-"curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash"
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
 
 2. download and install Node.js (you may need to restart the terminal)
-"nvm install 20"
+`nvm install 20`
 
 3. verifies the right Node.js version is in the environment
-"node -v" should print `v20.16.0`
+ `node -v` should print `v20.16.0`
 
 4. verifies the right npm version is in the environment
-"npm" -v should print `10.8.1`
+`npm -v` should print `10.8.1`
 
 ### Install mongodb
-1. install brew if not installed then use the command "brew install mongodb-community@7.0"
+1. install brew if not installed then use the command `brew install mongodb-community@7.0`
 
 ### Spin-up Application
 1. start up the mongodb database
-"brew services start mongodb-community@7.0"
+`brew services start mongodb-community@7.0`
 
-2. start up the node.js application "npm start" the script is already written in the package.json
+2. start up the node.js application `npm start` the script is already written in the package.json
 
 ### Commands in terminal
-1. curl -X POST -H "Content-Type: application/json" -d '{"original_url":"<long-url>"}' http://localhost:3000/shorten
-2. curl -L http://localhost:3000/<shorter-url>
-3. curl -L http://localhost:3000/analytics/<shorter-url>
+1. `curl -X POST -H "Content-Type: application/json" -d '{"original_url":"<long-url>"}' http://localhost:3000/shorten`
+2. `curl -L http://localhost:3000/<shorter-url>`
+3. `curl -L http://localhost:3000/analytics/<shorter-url>`
 
