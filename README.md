@@ -53,5 +53,5 @@ Using a Programming stack that you are comfortable with create a basic URL short
 2. `curl -L http://localhost:3000/<shorter-url>`
 3. `curl -L http://localhost:3000/analytics/<shorter-url>`
 
-> please replace "<shorter-url>" and "<longer-url>"
+> please replace "shorter-url" and "long-url" withe appropriate urls
 
