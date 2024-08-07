@@ -27,14 +27,16 @@ Using a Programming stack that you are comfortable with create a basic URL short
 
 ## Solution
 ### install Node.js
-installs nvm (Node Version Manager)
+1. installs nvm (Node Version Manager)
 "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash"
 
-download and install Node.js (you may need to restart the terminal)
+2. download and install Node.js (you may need to restart the terminal)
 "nvm install 20"
 
-verifies the right Node.js version is in the environment
+3. verifies the right Node.js version is in the environment
 "node -v" should print `v20.16.0`
 
-verifies the right npm version is in the environment
+4. verifies the right npm version is in the environment
 "npm" -v should print `10.8.1`
+
+

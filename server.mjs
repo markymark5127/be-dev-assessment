@@ -1,14 +1,11 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const { nanoid } = require('nanoid');
+import express from 'express';
+import mongoose from 'mongoose';
+import { nanoid } from 'nanoid';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-mongoose.connect('mongodb://localhost:27017/urlShortener', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-});
+mongoose.connect('mongodb://localhost:27017/urlShortener');
 
 const urlSchema = new mongoose.Schema({
     original_url: { type: String, required: true },
